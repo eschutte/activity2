@@ -1,0 +1,92 @@
+/******************
+CSS PAGE
+******************/
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	text-align: center;
+	border: 5px solid #800000;
+	font-family: 'Times New Roman', Times, serif;
+	background-color: #ADD8E6;
+}
+
+a {
+	text-align: center;
+	color: #800000;
+}
+
+/****************************
+HEADING
+****************************/
+
+header {
+	float: center;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Arial Black', Gadget, sans-serif;
+	margin: 10px 0;
+	font-size: 2.00em;
+	font-weight: normal;
+	line-height: 0.5;
+	text-align: center;
+	color: #800000;
+
+}	
+
+h2 {
+	font-size: 1.25em;
+	font-weight: normal;
+	margin: -5px 0 0;
+}
+
+/*****************************
+NAVIGATION
+*****************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	pading: 0;
+	overflow: hidden;
+	background-color: #D8D894;
+}
+	
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	display: inline-block;
+	color: #800000;
+	text-align: center;
+	padding: 0 0;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #C5C5C5;
+}
+
+
